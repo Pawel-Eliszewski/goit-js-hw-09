@@ -53,7 +53,7 @@ const options = {
         setInterval(() => {
           const ms = selectedDates[0] - new Date();
           let timeLeft = convertMs(ms);
-          addLeadingZero = value => {
+          const addLeadingZero = value => {
             return value.toString().padStart(2, '0');
           };
 
