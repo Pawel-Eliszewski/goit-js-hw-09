@@ -1,0 +1,19 @@
+#datetime-picker {
+    margin-left: 9px;
+}
+
+.timer, .field {
+    display: flex;
+}
+
+.field {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.value {
+    font-size: 24px;
+}
